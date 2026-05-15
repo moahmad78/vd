@@ -4,7 +4,20 @@ import { useParams } from "next/navigation";
 import { blogPosts } from "@/data/blogData";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, Calendar, User, Clock, Share2, Facebook, Twitter, Linkedin, ArrowRight } from "lucide-react";
+import { ArrowLeft, Calendar, User, Clock, Share2, ArrowRight } from "lucide-react";
+
+// Custom SVG Icons for stability and branding
+const FacebookIcon = ({ size = 20 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+);
+
+const TwitterIcon = ({ size = 20 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+);
+
+const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+);
 
 export default function BlogPost() {
   const params = useParams();
@@ -62,9 +75,9 @@ export default function BlogPost() {
               <div className="flex items-center gap-4">
                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Share</span>
                 <div className="flex gap-2">
-                  <button className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-[#020617] hover:text-white transition-all"><Facebook size={14} /></button>
-                  <button className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-[#020617] hover:text-white transition-all"><Twitter size={14} /></button>
-                  <button className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-[#020617] hover:text-white transition-all"><Linkedin size={14} /></button>
+                  <button className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-[#020617] hover:text-white transition-all"><FacebookIcon size={14} /></button>
+                  <button className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-[#020617] hover:text-white transition-all"><TwitterIcon size={14} /></button>
+                  <button className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-[#020617] hover:text-white transition-all"><LinkedinIcon size={14} /></button>
                 </div>
               </div>
             </div>
@@ -104,7 +117,7 @@ export default function BlogPost() {
               <ul>
                 <li><strong>Biophilic Integration:</strong> Moving beyond just "plants" to integrated air filtration and organic geometries.</li>
                 <li><strong>Acoustic Psychology:</strong> Designing spaces that manage sound as a primary environmental stimulus.</li>
-                <li><strong>Sustainable Fabrication:</strong> The rise of recycled high-performance aluminium in structural systems.</li>
+                <li><strong>Sustainable Fabrication:</strong> The rise of recycled high-performance architectural systems.</li>
                 <li><strong>Dynamic Lighting:</strong> Systems that mirror circadian rhythms to improve user well-being.</li>
               </ul>
 
@@ -121,7 +134,7 @@ export default function BlogPost() {
 
               <h2>The Voomet Difference</h2>
               <p>
-                What sets a turnkey solution apart is the "One-Point Ownership." When we handle both the design and the in-house fabrication, the margin for error evaporates. Every millimetre of your {post.category.toLowerCase()} project is managed under a unified quality control protocol.
+                What sets a turnkey solution apart is the "One-Point Ownership." When we handle both the design and the in-house execution, the margin for error evaporates. Every millimetre of your {post.category.toLowerCase()} project is managed under a unified quality control protocol.
               </p>
             </article>
 
@@ -132,7 +145,11 @@ export default function BlogPost() {
                   <div className="absolute top-0 right-0 w-24 h-24 bg-accent/20 rounded-full blur-3xl -translate-y-12 translate-x-12" />
                   <h4 className="text-2xl font-display font-bold mb-4 relative z-10">Start Your Project Journey</h4>
                   <p className="text-white/60 text-sm mb-8 relative z-10 leading-relaxed">
-                    Ready to transform your vision into a precision-engineered reality?
+                    Ready to transform your vision into a precision-engineered reality? 
+                    <br /><br />
+                    <span className="text-accent font-bold">Direct Line:</span> +91 9845014279
+                    <br />
+                    <span className="text-accent font-bold">Email:</span> shiraz@voomet.com
                   </p>
                   <button className="w-full bg-accent text-primary py-4 rounded-xl font-bold text-sm hover:bg-white transition-all transform hover:-translate-y-1 relative z-10">
                     BOOK FREE CONSULTATION
