@@ -36,7 +36,7 @@ const Hero = () => {
           >
             <img 
               src={images[currentImage]} 
-              alt="Luxury Interior Design and Premium Aluminium Systems - Voomet Design" 
+              alt="Luxury Interior Design and Bespoke Woodwork Execution - Voomet Design" 
               className="w-full h-full object-cover"
             />
           </motion.div>

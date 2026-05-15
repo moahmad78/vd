@@ -6,12 +6,12 @@ import { Zap, ShieldCheck, Banknote, Clock } from "lucide-react";
 const items = [
   {
     title: "In-House Fabrication",
-    desc: "We don't outsource. Our aluminium and wood fabrication is done in-house, ensuring 100% quality control.",
+    desc: "We don't outsource. Our bespoke woodwork and technical execution is done in-house, ensuring 100% quality control.",
     icon: <Zap className="w-6 h-6 text-accent" />
   },
   {
     title: "20% Cost Saving",
-    desc: "By combining interiors and aluminium fabrication under one roof, we save you up to 20% on total project costs.",
+    desc: "By combining technical design and in-house execution under one roof, we save you up to 20% on total project costs.",
     icon: <Banknote className="w-6 h-6 text-accent" />
   },
   {

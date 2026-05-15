@@ -71,7 +71,7 @@ const LeadMagnet = () => {
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                     <h4 className="text-xl font-bold mb-6 text-[#020617]">What are you planning?</h4>
                     <div className="grid grid-cols-1 gap-3">
-                      {["Residential", "Healthcare", "Hospitality", "Education", "Aluminium Fabrication"].map((type) => (
+                      {["Residential", "Healthcare", "Hospitality", "Education", "Bespoke Woodwork"].map((type) => (
                         <button
                           key={type}
                           onClick={() => { setFormData({ ...formData, projectType: type }); nextStep(); }}

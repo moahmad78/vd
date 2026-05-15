@@ -5,10 +5,10 @@ import Link from "next/link";
 import { Shield, Hammer, Ruler, Settings } from "lucide-react";
 
 const features = [
-  { icon: <Shield />, title: "High Durability", desc: "Corrosion-resistant alloys built to last decades." },
-  { icon: <Ruler />, title: "Precision Cut", desc: "Micro-millimeter accuracy for seamless fitting." },
-  { icon: <Settings />, title: "Custom Designs", desc: "Tailored profiles to match any architectural style." },
-  { icon: <Hammer />, title: "Professional Install", desc: "Expert on-site execution by certified technicians." },
+  { icon: <Shield />, title: "Premium Quality", desc: "Sustainably sourced hardwoods and veneers." },
+  { icon: <Ruler />, title: "Precision Craft", desc: "Micro-millimeter accuracy for seamless joinery." },
+  { icon: <Settings />, title: "Custom Artistry", desc: "Tailored designs to match your unique interior vision." },
+  { icon: <Hammer />, title: "Artisanal Install", desc: "Expert on-site execution by master craftsmen." },
 ];
 
 const FabricationModule = () => {
@@ -25,7 +25,7 @@ const FabricationModule = () => {
             <div className="aspect-square rounded-[3rem] overflow-hidden bg-slate-100 relative z-10 shadow-2xl">
               <img 
                 src="https://images.unsplash.com/photo-1590483734724-383b85ad65e7?q=80&w=1974&auto=format&fit=crop" 
-                alt="Premium Aluminium Fabrication and Structural Glazing - Voomet Engineering"
+                alt="Premium Bespoke Woodwork and Technical Interiors - Voomet Design"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -40,13 +40,13 @@ const FabricationModule = () => {
           </motion.div>
 
           <div className="w-full lg:w-1/2">
-            <h2 className="text-sm font-bold text-accent uppercase tracking-widest mb-4">Specialized Engineering</h2>
+            <h2 className="text-sm font-bold text-accent uppercase tracking-widest mb-4">Bespoke Woodwork & Technical Interiors</h2>
             <h3 className="text-4xl md:text-5xl font-display font-bold mb-8">
-              Premium Aluminium <br />
-              <span className="text-primary">Fabrication Solutions</span>
+              Technical Interior <br />
+              <span className="text-primary">Execution Solutions</span>
             </h3>
             <p className="text-slate-500 dark:text-slate-400 text-lg mb-12 leading-relaxed">
-              Our state-of-the-art fabrication unit specializes in high-end aluminium doors and windows. We combine structural integrity with sleek, minimalist aesthetics to complement modern architecture.
+              Our state-of-the-art manufacturing unit specializes in high-end bespoke woodwork and artisanal finishes. We combine structural integrity with sleek, minimalist aesthetics to complement modern luxury interiors.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">

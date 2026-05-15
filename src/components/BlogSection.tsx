@@ -20,8 +20,8 @@ const posts = [
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800"
   },
   {
-    title: "Sustainable Aluminium: Why it's the Future of Architecture",
-    excerpt: "Exploring the eco-friendly benefits of high-performance aluminium systems.",
+    title: "Artisanal Finishes: Why Wood is the Heart of Luxury Interiors",
+    excerpt: "Exploring the timeless elegance and sustainable craftsmanship of high-performance technical woodwork.",
     date: "May 08, 2026",
     category: "News",
     image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=800"

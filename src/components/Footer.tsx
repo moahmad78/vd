@@ -160,7 +160,7 @@ const Footer = () => {
               <div className="flex gap-4">
                 <MapPin size={24} className="text-amber-500 shrink-0" />
                 <p className="text-slate-500 text-sm leading-relaxed">
-                  No. 166, Obandehalli Industrial Area, Doddaballapura, Bangalore, Karnataka.
+                  No. 166, Obandehalli Industrial Area, Doddaballapura, Bangalore.
                 </p>
               </div>
               <div className="flex gap-4">

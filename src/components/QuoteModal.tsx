@@ -52,7 +52,7 @@ const QuoteModal = ({ isOpen, onClose }: QuoteModalProps) => {
                     <option>Residential</option>
                     <option>Hospital/Healthcare</option>
                     <option>Education</option>
-                    <option>Aluminium Fabrication</option>
+                    <option>Bespoke Woodwork</option>
                   </select>
                 </div>
                 <div className="space-y-1">

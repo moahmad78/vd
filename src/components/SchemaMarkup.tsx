@@ -50,7 +50,7 @@ const SchemaMarkup = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Interior Design & Aluminium Fabrication",
+    "serviceType": "Interior Design & Bespoke Woodwork",
     "provider": {
       "@type": "LocalBusiness",
       "name": "Voomet Design"
@@ -95,8 +95,8 @@ const SchemaMarkup = () => {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Aluminium Fabrication",
-            "description": "Precision-engineered aluminium window systems and glass partitions."
+            "name": "Bespoke Woodwork & Technical Interiors",
+            "description": "Precision-engineered woodwork systems and artisanal interior execution."
           }
         }
       ]

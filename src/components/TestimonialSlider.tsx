@@ -12,7 +12,7 @@ const testimonials = [
     image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=200"
   },
   {
-    text: "The precision in their aluminium fabrication is incredible. Our office windows are perfectly sound-insulated, making a huge difference in productivity.",
+    text: "The precision in their technical woodwork is incredible. Our bespoke furniture and wall panels are perfectly finished, making a huge difference in the overall luxury feel.",
     author: "Sanjay Mehta",
     position: "CEO, TechFlow Solutions",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200"
